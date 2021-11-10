@@ -2,11 +2,7 @@ int L, R;
 void setup() {
   pinMode(3, INPUT);
   pinMode(4, INPUT);
-//  pinMode(5, OUTPUT);
-//  pinMode(6, OUTPUT);
-//  pinMode(9, OUTPUT);
-//  pinMode(10, OUTPUT);
-//  Serial.begin(9600);
+  Serial.begin(9600);
   forward(150);
   Stop();
 }
