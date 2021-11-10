@@ -2,11 +2,7 @@ int L, R;
 void setup() {
   pinMode(3, INPUT);
   pinMode(4, INPUT);
-//  pinMode(5, OUTPUT);
-//  pinMode(6, OUTPUT);
-//  pinMode(9, OUTPUT);
-//  pinMode(10, OUTPUT);
-//  Serial.begin(9600);
+  Serial.begin(9600);
   forward(150);
   backward(150);
   left(150);
@@ -61,6 +57,5 @@ void loop() {
   Serial.print("Left: ");
   Serial.print(L);
   Serial.print("  Right: ");
-  Serial.print(R);
-  Serial.print("\n");
+  Serial.println(R);
 }
